@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import { ModeToggle } from "../components/theme-switch";
+
 import Navbar from "@/components/navbar";
-import { AnimatedBackground } from "animated-backgrounds";
+
 import { DotPattern } from "@/components/ui/dot-pattern";
 import InterestingScroll from "@/components/interesting-scroll";
 import { FaDiscord } from "react-icons/fa6";
