@@ -1,18 +1,18 @@
 import { useId } from "react";
-
 import { cn } from "@/lib/utils";
 
 interface DotPatternProps {
-  width?: any;
-  height?: any;
-  x?: any;
-  y?: any;
-  cx?: any;
-  cy?: any;
-  cr?: any;
+  width?: number; // Adjust based on expected data type
+  height?: number; // Adjust based on expected data type
+  x?: number; // Adjust based on expected data type
+  y?: number; // Adjust based on expected data type
+  cx?: number; // Adjust based on expected data type
+  cy?: number; // Adjust based on expected data type
+  cr?: number; // Adjust based on expected data type
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown; // Use `unknown` for extra props to maintain type safety
 }
+
 export function DotPattern({
   width = 16,
   height = 16,
